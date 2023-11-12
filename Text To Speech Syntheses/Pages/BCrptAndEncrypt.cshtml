@@ -1,0 +1,29 @@
+﻿@page
+@model Text_To_Speech_Syntheses.Pages.BCrptAndEncryptModel
+@{
+    ViewData["Title"] = "BCrypt & ECrypt";
+}
+
+@section BAndECrypt{
+    <h1>BCrypt </h1>
+
+
+    <form name="testForm" method="post">
+        <div>
+            <label for="_InputText "> Insert Data for Bcrpyt:</label>
+            <input type="text" id="_InputText" name="InputText" />
+        </div>
+        <br></br>
+        <div>
+            <label for="_InputText "> Bcrpyt Data from the Input:</label>
+            <input type="text" value="@Model.HashedText" />
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Bcrpyt" name="Submit" class="btns">
+        </div>
+        
+
+    </form>
+
+}

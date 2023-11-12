@@ -5,16 +5,49 @@
     <meta name="viewport" content="width=device-width" charset="utf-8" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/StyleSheet.css" />
+    <style>
+        nav {
+            text-align: center;
+            width: 100%;
+            position: fixed;
+        }
+
+            nav * {
+                display: inline;
+            }
+
+            nav li {
+                margin: 10px;
+            }
+
+                nav li a {
+                    color: blue;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                }
+
+                    nav li a:hover {
+                        color: red;
+                    }
+
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Text To Speech Syntheses / BCript</h1>
     </header>
-    <nav>fdsfds</nav>
+    <nav>
+        <ul>
+            <li><a href="~/Index">Home</a></li>
+            <li><a href="~/BCrptAndEncrypt">BCrptAndEncrypt</a></li>
+        </ul>
+    </nav>
     <main>
 
         @RenderBody()
         @RenderSection("HomeContent",required:false)
+        @RenderSection("BAndECrypt", required:false)
 
     </main>
 

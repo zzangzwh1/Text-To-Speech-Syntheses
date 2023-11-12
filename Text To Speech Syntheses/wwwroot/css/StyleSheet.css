@@ -1,12 +1,12 @@
 ﻿body {
-   
 }
-header{
-    display:grid;
-    justify-content:center;
-    align-content:center;
 
+header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
+
 footer {
     position: fixed; /* Fixed positioning for staying at the bottom */
     left: 0;
@@ -16,30 +16,36 @@ footer {
     justify-content: center; /* Horizontally center content */
     align-items: center; /* Vertically center content */
 }
-h4{
-    text-align:center;
+
+h4 {
+    text-align: center;
 }
+
 main {
     display: grid;
     justify-content: center;
     align-content: center;
 }
-.btnss{
-    width :100%;
-    height :30px;
+
+.btnss {
+    width: 100%;
+    height: 30px;
 }
+
 .btns {
     width: 100%;
     height: 30px;
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
 }
+
     .btns:hover {
         background-color: white;
         color: black;
-        cursor:pointer;
+        cursor: pointer;
     }
 
-    option {
-        text-align: center;
-    }
+option {
+    text-align: center;
+}
+

@@ -39,7 +39,7 @@ namespace Text_To_Speech_Syntheses.Pages
                
                 ReadText(textToTranslate, targetText);
             }
-           
+        
         }
         public void ReadText(string text, string languageCode)
         {
